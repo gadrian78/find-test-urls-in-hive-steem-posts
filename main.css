@@ -1,0 +1,52 @@
+p {
+    margin:0
+}
+.posts {
+    margin-top: 1em
+}
+.match {
+    margin:0 3em;
+    font-size:small
+}
+.image_link_mixed {
+    background:lightgray
+}
+.params {
+    font-family: monospace;
+    font-size: small
+}
+.status_ok {
+    background-color: green;
+    color:white;
+    padding:1px 3px;
+    font-weight:700
+}
+.status_broken {
+    background-color: red;
+    color:white;
+    padding:1px 3px;
+    font-weight:700
+}
+.status_py_error {
+    background-color: darkorange;
+    color:white;
+    padding:1px 3px;
+    font-weight:700
+}
+.status_already_tested {
+    background-color: darkgray;
+    color:white;
+    padding:1px 3px;
+    font-weight:700
+}
+.status_not_tested {
+    background-color: darkgray;
+    color:white;
+    padding:0 2px;
+    font-weight:400
+}
+.status_not_tested_reason {
+    color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small
+}
