@@ -8,7 +8,7 @@ You can find installation instructions [here](https://beem.readthedocs.io/en/lat
 
 **Python-DotEnv**
 You also need the [Python-DotEnv](https://pypi.org/project/python-dotenv/) package, to make the code run without hardcoding your private posting key. As an alternative, you can use <code>beempy</code> to securely store the PPK for your account, and the line of code <code>
-s = Steem(node=NODE, keys=[os.getenv('keys')])</code> will change to <code>
+s = Steem(node=NODE, keys=[os.getenv('keys')])</code> from <code>find_urls_in_posts.py</code> will change to <code>
 s = Steem(node=NODE)</code> 
 
 ## Some usage details:
