@@ -22,7 +22,9 @@ After the zipped files are downloaded, upzip them in a directory of your conveni
 
 3. You need to add you private posting key (or keys) to the <code>dotenv.env</code> file. **Do not share this file with anyone!**
 
-4. You should be now able to run this small Python code. Write <code>python find_urls_in_posts.py</code> from a terminal window in the directory where you saved the unzipped downloaded code.
+4. Change the <code>author_name</code> in <code>find_urls_in_posts.py</code> to your own Hive/Steem username (the one you added the private posting key for).
+
+5. You should be now able to run this small Python code. Write <code>python find_urls_in_posts.py</code> from a terminal window in the directory where you saved the unzipped downloaded code.
 
 This will execute a sample (for 20 posts) of a full options ON script. There are a number of <code>script_params_*</code> files which I created by default. Each contains a different set of combinations for the parameters. All you have to do to use any of them is to uncomment the corresponding <code>import</code> line in <code>find_urls_in_posts.py</code> (and comment the previous uncommented line).
 
